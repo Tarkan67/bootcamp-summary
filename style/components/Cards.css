@@ -1,0 +1,29 @@
+.Cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  flex-wrap: nowrap;
+  column-gap: 1em;
+  margin: 0.7em;
+}
+.Cards__container > h2 {
+  background-color: rgb(242, 90, 55);
+  color: rgba(255, 255, 255, 0.906);
+}
+
+.Cards__container {
+  box-shadow: 0 1px 8px rgb(87, 83, 83);
+  display: grid;
+  grid-auto-rows: auto;
+  flex-wrap: nowrap;
+  row-gap: 0.2em;
+  border-radius: 0.35rem;
+  overflow: hidden;
+  padding-bottom: 0.3em;
+}
+
+.Cards__container a {
+  margin-left: 0.3em;
+}
+.Cards__container h2 {
+  text-align: center;
+}

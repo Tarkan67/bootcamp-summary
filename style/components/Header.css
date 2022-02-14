@@ -1,0 +1,48 @@
+.Header {
+  box-shadow: 0 1px 8px rgb(87, 83, 83);
+  background-color: rgb(242, 90, 55);
+  font-size: 2em;
+  height: 2rem;
+}
+.Header__grid {
+  height: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.Header__weeks {
+  list-style: none;
+  grid-column: 1/2;
+  justify-self: center;
+  display: flex;
+}
+.Header__weeks > a {
+  text-decoration: none;
+  color: #ffffffe3;
+  justify-self: center;
+  align-self: center;
+}
+.Header__shortcuts {
+  list-style: none;
+  grid-column: 2/3;
+  justify-self: center;
+  display: flex;
+}
+.Header__shortcuts > a {
+  text-decoration: none;
+  color: #ffffffe3;
+  justify-self: center;
+  align-self: center;
+}
+
+.Header__categories {
+  list-style: none;
+  grid-column: 3/4;
+  justify-self: center;
+  display: flex;
+}
+.Header__categories > a {
+  text-decoration: none;
+  color: #ffffffe3;
+  justify-self: center;
+  align-self: center;
+}
